@@ -7,6 +7,6 @@ namespace lernquiz {
 
     export interface Answer {
         anserText: string;
-        id: string;
+        right: boolean;
     }
 }
